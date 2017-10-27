@@ -1,0 +1,31 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Deploy smart-contract via truffle",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bip39": "^2.4.0",
+    "ethereumjs-wallet": "^0.6.0",
+    "web3-provider-engine": "^13.3.3",
+    "hdkey": "latest",
+    "web3": "latest" 
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node truffle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poperechnyi1/TruffleDeploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poperechnyi1/TruffleDeploy/issues"
+  },
+  "homepage": "https://github.com/poperechnyi1/TruffleDeploy#readme"
+}
